@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Book Your Vibe | VibeMatch</title>
+</head>
+<body>
+    <div class="booking-container">
+        <header>
+            <h1>Secure Your Date</h1>
+            <p>You are booking: <strong>DJ Neon</strong></p>
+        </header>
+
+        <form id="booking-form">
+            <section class="form-group">
+                <label>Event Date</label>
+                <input type="date" id="event-date" required>
+            </section>
+
+            <section class="form-group">
+                <label>Event Type</label>
+                <select id="event-type">
+                    <option value="wedding">Wedding</option>
+                    <option value="club">Club/Lounge</option>
+                    <option value="private">Private Party</option>
+                    <option value="corporate">Corporate Event</option>
+                </select>
+            </section>
+
+            <section class="form-group">
+                <label>Duration (Hours)</label>
+                <input type="number" min="2" max="12" value="4">
+            </section>
+
+            <section class="form-group">
+                <label>Special Instructions (e.g., "No 80s music")</label>
+                <textarea rows="4" placeholder="Tell the DJ about your crowd..."></textarea>
+            </section>
+
+            <button type="submit" class="confirm-btn">Confirm & Pay Deposit</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
