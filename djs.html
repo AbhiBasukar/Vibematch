@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browse DJs | VibeMatch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">VIBE<span>MATCH</span></div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="djs.html">Find a DJ</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        <header class="page-header">
+            <h1>Available DJs</h1>
+            <p>Filter by genre or vibe</p>
+        </header>
+
+        <section class="dj-grid">
+            <div class="dj-card">
+                <div class="dj-image" style="background-image: url('https://images.unsplash.com/photo-1571266028243-e4733b0f0bb1?auto=format&fit=crop&w=500&q=80');"></div>
+                <div class="dj-info">
+                    <h3>DJ Nova</h3>
+                    <span class="genre">House • Techno</span>
+                    <p>Known for high-energy sets and neon light shows.</p>
+                    <div class="card-actions">
+                        <button class="play-btn" onclick="playPreview('nova.mp3')">▶ Play Demo</button>
+                        <a href="booking.html" class="book-small-btn">Book $200/hr</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="dj-card">
+                <div class="dj-image" style="background-image: url('https://images.unsplash.com/photo-1598387181032-a3103a2db5b3?auto=format&fit=crop&w=500&q=80');"></div>
+                <div class="dj-info">
+                    <h3>Soul Selecta</h3>
+                    <span class="genre">Funk • Soul • R&B</span>
+                    <p>Perfect for weddings and sophisticated cocktail hours.</p>
+                    <div class="card-actions">
+                        <button class="play-btn">▶ Play Demo</button>
+                        <a href="booking.html" class="book-small-btn">Book $150/hr</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
